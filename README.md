@@ -3,7 +3,7 @@
 This project uses OpenGL with GLUT to render two national flags:  
 🇺🇸 **United States of America** and 🇿🇦 **South Africa**.
 
-## 📌 Overview
+##  Overview
 
 The program utilizes basic OpenGL 2D primitives to draw:
 
@@ -12,14 +12,9 @@ The program utilizes basic OpenGL 2D primitives to draw:
 
 Each flag is rendered in its own function (`USA()` and `South_Africa()`), which can be linked to the `display` callback or used in a menu for selection.
 
-## 🖥️ Requirements
+## 🖥 Requirements
 
 - OpenGL
-- GLUT (e.g., FreeGLUT)
-- C++ compiler (e.g., g++, MSVC)
+- GLUT 
+- C++ compiler 
 
-## ⚙️ How to Compile (example using g++ on Linux)
-
-```bash
-g++ main.cpp -lGL -lGLU -lglut -o flag_renderer
-./flag_renderer
